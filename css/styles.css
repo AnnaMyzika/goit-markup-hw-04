@@ -369,7 +369,7 @@ img {
 .sotial-list-item-link-svg {
   width: 20px;
   height: 20px;
-  fill: AFB1B8;
+  fill: #afb1b8;
 }
 
 .sotial-list-item-link:hover .sotial-list-item-link-svg,
@@ -414,6 +414,10 @@ img {
   box-sizing: border-box;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+}
+
+.customers-list-item-svg {
+  fill: #afb1b8;
 }
 
 .customers-list-item-link:hover,
@@ -477,6 +481,18 @@ img {
 
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.invitation-sotial-list-link-svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--title-dark-theme-color);
+}
+
+.invitation-sotial-list-link:hover,
+.invitation-sotial-list-link:focus {
+  border-radius: 50%;
+  background-color: var(--accent-color);
 }
 
 .invitation-sotial-list-item:not(:last-child) {
