@@ -372,11 +372,13 @@ img {
   fill: AFB1B8;
 }
 
-.sotial-list-item-link:hover .sotial-list-item-link-svg {
+.sotial-list-item-link:hover .sotial-list-item-link-svg,
+.sotial-list-item-link:focus .sotial-list-item-link-svg {
   fill: var(--title-dark-theme-color);
 }
 
-.sotial-list-item-link:hover {
+.sotial-list-item-link:hover,
+.sotial-list-item-link:focus {
   border-radius: 50%;
   background-color: var(--accent-color);
 }
@@ -414,7 +416,8 @@ img {
   border-radius: 4px;
 }
 
-.customers-list-item-link:hover {
+.customers-list-item-link:hover,
+.customers-list-item-link:focus {
   border: 1px solid var(--accent-color);
   border-radius: 4px;
 }
