@@ -157,7 +157,7 @@ img {
 .address-list-item-svg {
   width: 10px;
   height: 15px;
-  color: var(--text-light-theme-color);
+  fill: var(--text-light-theme-color);
 }
 
 .header-mail:hover,
@@ -349,6 +349,12 @@ img {
   align-items: center;
   width: 44px;
   height: 44px;
+}
+
+.sotial-list-item-link-svg {
+  width: 20px;
+  height: 20px;
+  fill: aqua;
 }
 
 .team-list-item-name,
