@@ -155,9 +155,8 @@ img {
 }
 
 .address-list-item-svg {
-  width: 10px;
-  height: 15px;
   fill: var(--text-light-theme-color);
+  margin-right: 10px;
 }
 
 .header-mail:hover,
@@ -168,6 +167,16 @@ img {
 .header-tel:hover,
 .header-tel:focus {
   color: var(--accent-color);
+}
+
+.header-mail:hover .address-list-item-svg,
+.header-mail:focus .address-list-item-svg {
+  fill: var(--accent-color);
+}
+
+.header-tel:hover .address-list-item-svg,
+.header-tel:focus .address-list-item-svg {
+  fill: var(--accent-color);
 }
 
 /*герой-секция*/
@@ -311,6 +320,12 @@ img {
 .team-list-item:not(:last-child) {
   margin-right: 30px;
 }
+.team-list-item {
+  background: #ffffff;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
+}
 
 .team-list-item-img {
   margin-bottom: 30px;
@@ -354,7 +369,16 @@ img {
 .sotial-list-item-link-svg {
   width: 20px;
   height: 20px;
-  fill: aqua;
+  fill: AFB1B8;
+}
+
+.sotial-list-item-link:hover .sotial-list-item-link-svg {
+  fill: var(--title-dark-theme-color);
+}
+
+.sotial-list-item-link:hover {
+  border-radius: 50%;
+  background-color: var(--accent-color);
 }
 
 .team-list-item-name,
