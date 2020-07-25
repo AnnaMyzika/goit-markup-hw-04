@@ -259,6 +259,20 @@ img {
   margin-bottom: 0px;
 }
 
+.features-list-item-svg {
+  width: 70px;
+  height: 70px;
+}
+
+.features-list-item-icon {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+}
+
 .subtitle {
   font-weight: 700;
   font-size: 14px;
