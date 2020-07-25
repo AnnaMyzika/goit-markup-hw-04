@@ -131,9 +131,32 @@ img {
   color: var(--accent-color);
 }
 
+.navigation-list-item.current::after {
+  display: block;
+  /* margin-top: 28px; */
+  width: 100%;
+  height: 4px;
+  background-color: #2196f3;
+  border-radius: 2px;
+  content: '';
+}
+
+.navigation .navigation-list-link.current {
+  color: var(--accent-color);
+}
+
 .header-tel,
 .header-mail {
+  display: flex;
+  align-items: center;
+
   font-style: normal;
+  color: var(--text-light-theme-color);
+}
+
+.address-list-item-svg {
+  width: 10px;
+  height: 15px;
   color: var(--text-light-theme-color);
 }
 
@@ -413,6 +436,9 @@ img {
   align-items: center;
   width: 44px;
   height: 44px;
+
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .invitation-sotial-list-item:not(:last-child) {
