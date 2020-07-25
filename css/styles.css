@@ -422,6 +422,11 @@ img {
   border-radius: 4px;
 }
 
+.customers-list-item-link:hover .customers-list-item-svg,
+.customers-list-item-link:focus .customers-list-item-svg {
+  fill: var(--accent-color);
+}
+
 .customers-list-item:not(:last-child) {
   margin-right: 30px;
 }
